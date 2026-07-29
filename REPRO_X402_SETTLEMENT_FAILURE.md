@@ -67,7 +67,7 @@ The merchant token store nevertheless contained:
 }
 ```
 
-The payment token is marked consumed and an order identifier is allocated, although no settlement occurred.
+The payment token remains marked `used: true` in the merchant's local token store, and an order identifier remains allocated, although no settlement occurred.
 
 ---
 
