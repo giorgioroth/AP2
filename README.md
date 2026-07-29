@@ -1,5 +1,11 @@
 # Agent Payments Protocol (AP2)
 
+> **Experimental fork.** This fork explores an execution-enforcement architecture built on top of the AP2 reference implementation. The protocol, message formats and delegation model are unchanged.
+>
+> See [`EXECUTION_GATE.md`](EXECUTION_GATE.md) for the observations, the integration point, and the open questions.
+>
+> Not affiliated with Google. Not part of the official AP2 project. Upstream: [google-agentic-commerce/AP2](https://github.com/google-agentic-commerce/AP2).
+
 [![Apache License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/google-agentic-commerce/AP2)
 
