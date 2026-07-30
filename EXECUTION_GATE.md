@@ -99,6 +99,8 @@ The ordering in the source matches: the token is marked used at line 923, the or
 
 Full conditions, the baseline run, and the limits of the claim are in [`REPRO_X402_SETTLEMENT_FAILURE.md`](REPRO_X402_SETTLEMENT_FAILURE.md). In particular this establishes neither loss of funds, nor on-chain consumption of the EIP-3009 authorization, nor anything about deployments other than the one run.
 
+The observation was reported upstream as [google-agentic-commerce/AP2#308](https://github.com/google-agentic-commerce/AP2/issues/308) on 2026-07-30, asking whether the ordering is intentional for the samples. Whatever the maintainers answer will be recorded here.
+
 This answers one of the questions in Section 5 and leaves the rest open. It also shifts what this fork is about: the demonstrated result is a failure of atomicity across an external boundary, not a result about admissibility before it. Whether the agent-side gate described in Section 3 changes any outcome remains untested.
 
 ---
