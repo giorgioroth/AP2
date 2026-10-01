@@ -1,8 +1,10 @@
 # Agent Payments Protocol (AP2)
 
-> **Experimental fork.** This fork explores an execution-enforcement architecture built on top of the AP2 reference implementation. The protocol, message formats and delegation model are unchanged.
+> **Experimental fork.** This fork documents observations about the AP2 reference implementation and proposes an execution-gate integration point. No gate implementation is included; the protocol, message formats and delegation model are unchanged.
 >
-> See [`EXECUTION_GATE.md`](EXECUTION_GATE.md) for the observations, the integration point, and the open questions.
+> **Research status (2026-10-01).** Issue [AP2#309](https://github.com/google-agentic-commerce/AP2/issues/309), filed from this work, is one of the public evidence sources for case AP2-05 (Table VI, match "Partial") in [arXiv:2609.00060](https://arxiv.org/abs/2609.00060). That paper analyses the upstream protocols and samples; it does not validate the gate proposed here or the Regen Engine.
+>
+> See [`EXECUTION_GATE.md`](EXECUTION_GATE.md) for the observations, the proposed integration point, the post-#309 history and the open questions.
 >
 > Not affiliated with Google. Not part of the official AP2 project. Upstream: [google-agentic-commerce/AP2](https://github.com/google-agentic-commerce/AP2).
 
